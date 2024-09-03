@@ -13,7 +13,7 @@ Scanner sc = new Scanner(System.in);
 	    
 	   int anos = DiasVividos / 365;
 	    
-	   int DiasRAnos = 6357 - (anos * 365);
+	   int DiasRAnos = DiasVividos - (anos * 365);
 	   
 	   int meses = DiasRAnos / 30;
 	   
