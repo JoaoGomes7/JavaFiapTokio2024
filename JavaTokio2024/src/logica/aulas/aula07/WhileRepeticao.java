@@ -29,7 +29,7 @@ public class WhileRepeticao {
 //---------------------------------------------------------------------------
 		// MODIFICADORES DE LAÇO
 		
-		int i = 0;
+		int i = 1;
 		
 		while (i <10) {
 			i++;
