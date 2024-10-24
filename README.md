@@ -1,2 +1,3 @@
 # JavaFiapTokio2024
-Primeira aula de java
+Projetos feitos durante o periodo de curso
+
