@@ -1,6 +1,6 @@
 package br.com.fiap.bancov2;
 
-public class Conta  {
+public abstract class Conta  {
 	
 	
 	
@@ -52,11 +52,7 @@ public class Conta  {
 	//-----------------------------------------------------------------------------
 	
 	// EXIBIR SALDO//------------------------------------------------------------------
-	public void exibirSaldo() {
-		System.out.println("Nome: " + this.cliente.getNomeCliente());
-		System.out.println("Saldo: " + this.saldo);
-		System.out.println("Data nasc: " + this.cliente.getDataNasc());
-	}
+	public abstract void exibirSaldo();
 
 }
 
